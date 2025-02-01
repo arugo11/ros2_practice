@@ -1,0 +1,37 @@
+# ROS 2のビルドとインストール
+build/
+install/
+log/
+
+# Python関連
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+
+# colconビルド関連
+COLCON_IGNORE
+.env
+*.rc
+
+# ROS 2固有
+/prefix_override/
+/local_setup.*
+/setup.*
+/_local_setup_util_*
+
+# テスト関連
+.pytest_cache/
+test-results/
+
+# エディタ/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS固有
+.DS_Store
+Thumbs.db
+*~
